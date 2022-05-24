@@ -1,0 +1,86 @@
+# tag
+> - As tags servem para marcar um conteúdo HTML, inserior conteúdo, imagens, vídeos e dar semantica, ou seja, permitir que AI de google e entre outras, identifiquem melhor seu contúdo na WEB.
+	Além disso, servem para integração com o CSS e o JavaScript
+	Exemplo de uma tag: abrimos <a> conteúdo é o que vai aparecer para o usuário </a> e fechamos a tag
+	
+> - Atributos de uma tag
+	Os atributos dão informação extra para a tag
+	Exemplo de atributo na tag <a> seria o href=""
+		<a href="google.com">google</a>
+
+> - Tags Comuns
+	P
+	<p>Marca um parágrafo</p>
+	
+	h1,h2,h3,h4,h4,h6
+	<h1>Marca deiferentes tipos de títulos</h1>
+	
+	a
+	<a>Marca um link</a>
+	
+	body
+	<body>Vai todo o conteúdo que o usuário irá ver no site, ou seja, as tags devem ser construídas demtro do body</body>
+	
+	head
+	<head>Vai todo conteúdo configurável do site, o qual o usuário não irá ver. como exemplo o <title>para alterar o nome que aparesse na aba do site</title></head>
+	
+	
+# Puglis para o VScode
+	live server
+		para não precisar ficar dando refresh no site. o mesmo emula um site. sempre salva o documento ele altera o site
+		
+
+CTRL + SHIFT + P 
+	abre o paível para fazer pesquisas de configurações
+	
+	setting json para abrir as configurações em modo de texto e UI para ter interface
+	
+	
+um CTRL + C na linha sem estar nada selecionado, copia ela toda
+
+CTRL + SHIF + Z volta o CTRL + Z
+
+ALT na linha movimenta a lina
+
+CTRL + D
+seleciona as proximas palavras parecidas com uma palávra que já está selecionada, pocibilitando mudar tudo de uma vez
+
+fazer comentário
+CTRL + /
+<!-- COmentário-->
+//comentário
+
+
+Fechar explorador
+CTRL + B
+
+Caminho Relativo
+/index.html
+
+Arquivo index.html no diretório raiz /.
+
+/produtos/bicicletas.html
+
+Arquivo bicicletas.html no diretório /produtos localizado na raiz.
+
+index.html ou ./index.html
+
+Arquivo index.html no diretório atual ./.
+
+../index.html
+
+Arquivo index.html um diretório anterior ao atual ../.
+
+../../index.html
+
+Arquivo index.html dois diretórios anteriores ao atual.
+
+<a href="/index.html">Home</a>
+  <a href="./bicicletas.html">Bicicletas</a>
+  <!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro -->
+  <a href="bicicletas.html">Bicicletas</a>
+  <!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro igual a anterios-->
+  <a href="/index.html">Bicicletas</a>
+  <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro -->
+  <a href="../index.html">Bicicletas</a>
+  <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro igual a anterior-->
