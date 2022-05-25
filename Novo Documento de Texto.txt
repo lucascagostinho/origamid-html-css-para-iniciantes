@@ -84,3 +84,28 @@ Arquivo index.html dois diretórios anteriores ao atual.
   <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro -->
   <a href="../index.html">Bicicletas</a>
   <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro igual a anterior-->
+  
+  # boxModel
+	Content (conteúdo)
+	Define a largura inicial da caixa (salvo elementos de bloco).
+
+	Padding (preenchimento)
+	Separa o conteúdo das bordas da caixa. É a margem interna.
+	
+	Border (borda)
+	Define bordas para a caixa.
+
+	Margin (margem)
+	Define a distância entre uma caixa e outra.
+
+	Width (largura)
+	A largura total da caixa, por padrão é o somatório do conteúdo + padding (left/right) + border (left/right).
+
+	Height (altura)
+	A largura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
+	
+# Display
+	display em bloco, irá ocupas toda alinha, qualquer elemento não irá ficar ao lado dele, pelo fator de ser display block
+	exemplos, h1, div são display block e fazer que os elementos não fiquem do lado dele
+	
+	diplay in-line os elementos ficam na linha ou seja, um elemento vai ficando do lado do outro
