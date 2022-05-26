@@ -109,3 +109,6 @@ Arquivo index.html dois diretórios anteriores ao atual.
 	exemplos, h1, div são display block e fazer que os elementos não fiquem do lado dele
 	
 	diplay in-line os elementos ficam na linha ou seja, um elemento vai ficando do lado do outro
+	
+# com o max-width, voce define qual o tamanho máximo da image, de acordo com elemento pai que ela está
+então se ela está dentro de uma fiv, ela vai ficar do tamanho da div, caso esteja 100%
