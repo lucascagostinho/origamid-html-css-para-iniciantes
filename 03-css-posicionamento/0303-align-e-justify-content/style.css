@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+.itens {
+  display: grid;
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.botao {
+  background-color: #a8f;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #a8f;
+  color: #103;
+  border-radius: 4px;
+  text-decoration: none;
+}
