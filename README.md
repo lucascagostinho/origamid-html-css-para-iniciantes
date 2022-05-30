@@ -166,6 +166,8 @@ Define como a caixa irá se comportar
 
 > Para posicionamentos complexos, como o da imagem abaixo, utilizamos as propriedades display grid (CSS Grid Layout) e flex (Flexbox).
 
+![Exemplo de display](/imagens/exemplo-display.png "Exemplo de display.")
+
 # Img
 
 #### Max-width
