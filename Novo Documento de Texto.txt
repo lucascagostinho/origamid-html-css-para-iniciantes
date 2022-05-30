@@ -1,114 +1,163 @@
-# tag
-> - As tags servem para marcar um conteúdo HTML, inserior conteúdo, imagens, vídeos e dar semantica, ou seja, permitir que AI de google e entre outras, identifiquem melhor seu contúdo na WEB.
-	Além disso, servem para integração com o CSS e o JavaScript
-	Exemplo de uma tag: abrimos <a> conteúdo é o que vai aparecer para o usuário </a> e fechamos a tag
-	
-> - Atributos de uma tag
-	Os atributos dão informação extra para a tag
-	Exemplo de atributo na tag <a> seria o href=""
-		<a href="google.com">google</a>
+## tag's HTML
 
-> - Tags Comuns
-	P
-	<p>Marca um parágrafo</p>
+As tags servem para marcar um conteúdo HTML, inserior conteúdo, imagens, vídeos e dar semantica, ou seja, permitir que AI de google e entre outras, identifiquem melhor seu contúdo na WEB. Além disso, servem para integração com o CSS e o JavaScript
+
+> Exemplo de uma tag:
+
+```
+Abrimos <a> conteúdo: é o que vai aparecer para o usuário </a> e fechamos a tag
+```
 	
-	h1,h2,h3,h4,h4,h6
-	<h1>Marca deiferentes tipos de títulos</h1>
+## Atributos de uma tag HTML
+
+Os atributos dão informação extra ou funções para a tag
+
+> Exemplo de um atributo na tag <a> seria o href=""
+
+```
+<a href="google.com">google</a>
+```
+
+## tag's mais comuns do HTML
+
+```
+p: Marca um parágrafo
+<p>Conteúdo do parágrado</p>
+
+h1,h2,h3,h4,h4,h6: Marca deiferentes tipos de títulos
+<h1>Títulos</h1>
+
+a: Marca um link
+<a href='google.com'>Google</a>
+
+body: Contém toda execusão do site
+<body>
+Vai todo o conteúdo que o usuário irá ver no site, ou seja, as tags devem ser construídas demtro do body
+</body>
 	
-	a
-	<a>Marca um link</a>
-	
-	body
-	<body>Vai todo o conteúdo que o usuário irá ver no site, ou seja, as tags devem ser construídas demtro do body</body>
-	
-	head
-	<head>Vai todo conteúdo configurável do site, o qual o usuário não irá ver. como exemplo o <title>para alterar o nome que aparesse na aba do site</title></head>
-	
-	
-# Puglis para o VScode
-	live server
-		para não precisar ficar dando refresh no site. o mesmo emula um site. sempre salva o documento ele altera o site
+head: Conteém algumas configurações do site
+<head>
+Vai todo conteúdo configurável do site, o qual o usuário não irá ver. como exemplo o <title>para alterar o nome que aparesse na aba do site</title>
+</head>
+```
+
+## VScode
+
+#### Puglins para o VScode
+
+Live Server
+
+> Pode ser aplicado nos Puglins do VScode para não precisar ficar dando refresh no site. o mesmo emula um site. Após salvar alterações no código o mesmo automaticamnete muda os site.
+
+#### Atalhos do VScode
 		
-
 CTRL + SHIFT + P 
-	abre o paível para fazer pesquisas de configurações
+> Abre uma caixa de pesquisa para fazer consultas e encontrar algumas funcionalidades, como por exemplo: abrir arquivo de configuração do VScode, executar algum plugin, encontrar algum arquivo
 	
-	setting json para abrir as configurações em modo de texto e UI para ter interface
-	
-	
-um CTRL + C na linha sem estar nada selecionado, copia ela toda
+CTRL + C na linha sem estar nada selecionado
+> Copia todo a linha para o CTRL + V
 
-CTRL + SHIF + Z volta o CTRL + Z
+CTRL + SHIF + Z 
+> Faz a funcionalidade inversa do CTRL + Z
 
-ALT na linha movimenta a lina
+ALT na linha mais setas direcionais cima ou baixo
+> Movimenta a lina para o direcional que você clica
 
 CTRL + D
-seleciona as proximas palavras parecidas com uma palávra que já está selecionada, pocibilitando mudar tudo de uma vez
+> Seleciona as proximas palavras parecidas com uma palávra que já está selecionada, pocibilitando mudar tudo de uma vez
 
-fazer comentário
-CTRL + /
-<!-- COmentário-->
-//comentário
+CTRL + / , ```<!-- Comentário-->``` ou  //comentário
+> Fazer Comentário
 
+> CTRL + B
+Fecha explorador de arquivos
 
-Fechar explorador
-CTRL + B
-
-Caminho Relativo
-/index.html
+## Marcação para caminhos de arquivos
 
 Arquivo index.html no diretório raiz /.
 
-/produtos/bicicletas.html
+```/index.html```
 
 Arquivo bicicletas.html no diretório /produtos localizado na raiz.
 
-index.html ou ./index.html
+```/produtos/bicicletas.html```
 
 Arquivo index.html no diretório atual ./.
 
-../index.html
+```index.html ou ./index.html```
 
 Arquivo index.html um diretório anterior ao atual ../.
 
-../../index.html
+```../index.html```
 
 Arquivo index.html dois diretórios anteriores ao atual.
 
+```../../index.html```
+
+> Exemplos detalhados
+
+````
 <a href="/index.html">Home</a>
-  <a href="./bicicletas.html">Bicicletas</a>
-  <!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro -->
-  <a href="bicicletas.html">Bicicletas</a>
-  <!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro igual a anterios-->
-  <a href="/index.html">Bicicletas</a>
-  <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro -->
-  <a href="../index.html">Bicicletas</a>
-  <!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro igual a anterior-->
+
+<a href="./bicicletas.html">Bicicletas</a>
+<!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro -->
   
-  # boxModel
-	Content (conteúdo)
-	Define a largura inicial da caixa (salvo elementos de bloco).
+<a href="bicicletas.html">Bicicletas</a>
+<!--dessa forma, ele irá falar com o dretório atual que está carros e vai tentar encontrar bicletas, caso não encontre ele, irá dar erro igual a anterios-->
+  
+<a href="/index.html">Bicicletas</a>
+<!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro -->
+  
+<a href="../index.html">Bicicletas</a>
+<!--dessa forma, ele irá falar com o dretório raiz onde está index e vai tentar encontrar index, caso não encontre ele, irá dar erro igual a anterior-->
+  ````
+  
+## Box Model
+Uma interface web é composta de diversas caixas que organizam o conteúdo. E com alguns atributos CSS definimos o tamanho dessas caixas 
 
-	Padding (preenchimento)
-	Separa o conteúdo das bordas da caixa. É a margem interna.
-	
-	Border (borda)
-	Define bordas para a caixa.
+> Exemplo:
+```
+Content (conteúdo)
+Define a largura inicial da caixa (salvo elementos de bloco).
 
-	Margin (margem)
-	Define a distância entre uma caixa e outra.
+Padding (preenchimento)
+Separa o conteúdo das bordas da caixa. É a margem interna.
+	
+Border (borda)
+Define bordas para a caixa.
 
-	Width (largura)
-	A largura total da caixa, por padrão é o somatório do conteúdo + padding (left/right) + border (left/right).
+Margin (margem)
+Define a distância entre uma caixa e outra.
 
-	Height (altura)
-	A largura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
+Width (largura)
+A largura total da caixa, por padrão é o somatório do conteúdo + padding (left/right) + border (left/right).
+
+Height (altura)
+A largura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
+````
+
+![Exemplo de Box Model](/imagem/box-model.png "Exemplo de Box Model.")
 	
-# Display
-	display em bloco, irá ocupas toda alinha, qualquer elemento não irá ficar ao lado dele, pelo fator de ser display block
-	exemplos, h1, div são display block e fazer que os elementos não fiquem do lado dele
+## Display
+Define como a caixa irá se comportar
+
+#### inline
+
+> Respeita o fluxo da escrita sem iniciar uma nova linha, não é possível definir valores de width, height, margin (top/bottom) e etc. É o estilo padrão. Dessa forma os elementos ficam na linha um do lado do outro.
+
+#### block
+
+> Inicia uma nova linha e não permite que outros elementos sejam posicionados em sua linha. Aceita todas as propriedades do box model. Estilo inicial de elementos como h1, p, div e outros.
+
+#### inline-block
+
+> O elemento continua inline, mas passa a receber as propriedades do box model. Ou seja, pode ser atribuídos valores de tamanho das caixas
+
+#### Outros elementos de display 
+
+> Para posicionamentos complexos, como o da imagem abaixo, utilizamos as propriedades display grid (CSS Grid Layout) e flex (Flexbox).
 	
-	diplay in-line os elementos ficam na linha ou seja, um elemento vai ficando do lado do outro
-	
-# com o max-width, voce define qual o tamanho máximo da image, de acordo com elemento pai que ela está
-então se ela está dentro de uma fiv, ela vai ficar do tamanho da div, caso esteja 100%
+# Img
+
+#### Max-width
+> Com o atributo CSS max-width, voce define qual o tamanho máximo da image, de acordo com elemento pai que ela está. Então se ela está dentro de uma Div, ela vai ficar do tamanho da div, caso esteja max-width: 100%
