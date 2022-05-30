@@ -144,7 +144,7 @@ Height (altura)
 A largura total da caixa, por padrão é o somatório do conteúdo + padding (top/bottom) + border (top/bottom).
 ```
 
-![Exemplo de Box Model](/imagem/box-model.png "Exemplo de Box Model.")
+![Exemplo de Box Model](/imagens/box-model.png "Exemplo de Box Model.")
 
 ## Display
 
