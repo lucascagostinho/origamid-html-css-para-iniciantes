@@ -173,3 +173,9 @@ Define como a caixa irá se comportar
 #### Max-width
 
 > Com o atributo CSS max-width, voce define qual o tamanho máximo da image, de acordo com elemento pai que ela está. Então se ela está dentro de uma Div, ela vai ficar do tamanho da div, caso esteja max-width: 100%
+
+## Unidades do CSS
+
+#### rem
+
+> Unidade relativa ao tamanho da fonte do html. Por padrão essa fonte é de 16px ou seja, 1rem = 16px.
